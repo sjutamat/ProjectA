@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC8B24BB-2EE6-43C0-B3B2-AD5621C86D8B}</ProjectGuid>
+    <ProjectGuid>{A877C648-9490-47C4-A681-D57B3C109E66}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ProjectA.DAL</RootNamespace>
-    <AssemblyName>ProjectA.DAL</AssemblyName>
+    <RootNamespace>ProjectA.ProjectDAL</RootNamespace>
+    <AssemblyName>ProjectA.ProjectDAL</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,7 +39,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Op3ration">
-      <HintPath>..\packages\Op3\Op3\Op3ration.dll</HintPath>
+      <HintPath>..\packages\Op3ration\Op3ration.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -53,7 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implement\BaseRepository.cs" />
-    <Compile Include="Implement\Staging\TBL_CategoryRepository.cs" />
+    <Compile Include="Implement\Staging\CategoryRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +70,7 @@
       <Name>ProjectA.Domain</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

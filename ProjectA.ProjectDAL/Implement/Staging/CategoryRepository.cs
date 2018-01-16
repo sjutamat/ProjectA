@@ -9,16 +9,16 @@ using ProjectA.Domain.Interface.Repository.Staging;
 using ProjectA.Domain.ViewModel;
 using System.Linq.Expressions;
 
-namespace ProjectA.DAL.Implement.Staging
+namespace ProjectA.ProjectDAL.Implement.Staging
 {
-    public class TBL_CategoryRepository : BaseRepository<Category>, ITBL_CategoryRepository
+    public class CategoryRepository : BaseRepository<Category>, ITBL_CategoryRepository 
     {
         private readonly ProjectAEntities1 _ProjectAEntity;
-        public TBL_CategoryRepository(ProjectAEntities1 _Context) : base(_Context)
+        public CategoryRepository(ProjectAEntities1 _Context) : base(_Context)
         {
             _ProjectAEntity = _Context;
         }
-   
+
 
         public IEnumerable<Category> GetAllCategory()
         {
@@ -39,5 +39,4 @@ namespace ProjectA.DAL.Implement.Staging
             return data;
         }
     }
-
 }

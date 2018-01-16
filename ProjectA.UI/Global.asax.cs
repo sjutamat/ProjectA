@@ -17,11 +17,12 @@ namespace ProjectA.UI
             var builder = new ContainerBuilder();
             builder.RegisterControllers(typeof(MvcApplication).Assembly);
 
-            var db = Assembly.GetAssembly(typeof(DAL.Implement.Staging.TBL_CategoryRepository));
-            builder.RegisterAssemblyTypes(db)
-                .Where(t => t.Name.EndsWith("Repository"))
-                .AsImplementedInterfaces().PropertiesAutowired()
-                      .InstancePerHttpRequest();
+            //var db = Assembly.GetAssembly(typeof(ProjectDAL.Implement.Staging.TBL_CategoryRepository));
+
+            //builder.RegisterAssemblyTypes(db)
+            //    .Where(t => t.Name.EndsWith("Repository"))
+            //    .AsImplementedInterfaces().PropertiesAutowired()
+            //          .InstancePerHttpRequest();
 
 
         }
