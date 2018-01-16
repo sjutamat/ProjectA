@@ -12,5 +12,6 @@ namespace ProjectA.Domain.Interface.Repository.Staging
     /// </summary>
     public interface ITBL_CategoryRepository : IBaseRepository<Category>
     {
+
     }
 }
