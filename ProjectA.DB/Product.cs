@@ -21,5 +21,8 @@ namespace ProjectA.DB
         public string UpdatedBy { get; set; }
         public Nullable<System.DateTime> CreatedDate { get; set; }
         public string CreatedBy { get; set; }
+        public string CategoryID { get; set; }
+    
+        public virtual Category Category { get; set; }
     }
 }

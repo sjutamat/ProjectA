@@ -13,6 +13,7 @@ namespace ProjectA.DAL.Implement
         {
             _Context.Configuration.ProxyCreationEnabled = false;
             _Context.Configuration.LazyLoadingEnabled = false;
+
         }
     }
 }
