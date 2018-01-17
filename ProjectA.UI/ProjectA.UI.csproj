@@ -104,9 +104,13 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+<<<<<<< HEAD
     <Reference Include="System.Web.Extensions" />
+=======
+>>>>>>> a79a6bcee8809704dcdf42d1d67a1987a8a63eca
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
@@ -191,10 +195,6 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ProjectA.DAL\ProjectA.DAL.csproj">
-      <Project>{ec8b24bb-2ee6-43c0-b3b2-ad5621c86d8b}</Project>
-      <Name>ProjectA.DAL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ProjectA.DB\ProjectA.DB.csproj">
       <Project>{64b8f456-a13c-48c2-96de-81d260bf9b45}</Project>
       <Name>ProjectA.DB</Name>

@@ -40,7 +40,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Op3ration">
-      <HintPath>..\packages\Op3\Op3\Op3ration.dll</HintPath>
+      <HintPath>..\packages\Op3ration\Op3ration.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
