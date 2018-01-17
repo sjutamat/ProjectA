@@ -104,10 +104,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-<<<<<<< HEAD
-    <Reference Include="System.Web.Extensions" />
-=======
->>>>>>> a79a6bcee8809704dcdf42d1d67a1987a8a63eca
+
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
